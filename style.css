@@ -1,7 +1,9 @@
 body {
   background-color: whitesmoke;
 }
-
+.container {
+  width: 100%;
+}
 .formcontainer,
 .textcontainer {
   border: 1px solid gray;
