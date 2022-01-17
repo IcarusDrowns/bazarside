@@ -1,0 +1,68 @@
+body {
+  background-color: whitesmoke;
+}
+
+.formcontainer,
+.textcontainer {
+  border: 1px solid gray;
+  width: 321px;
+  margin: 30px auto;
+  padding: 10px;
+  background-color: white;
+  color: #050505;
+}
+
+.already,
+.heading,
+.goback {
+  text-align: center;
+}
+
+span {
+  border-bottom: solid rgb(185, 66, 50) 4px;
+  padding-bottom: 4px;
+}
+
+label {
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 96%;
+  height: 20px;
+}
+
+button {
+  background-color: rgb(185, 66, 50);
+  color: white;
+  height: 30px;
+  width: 98%;
+  border-color: white;
+  margin-top: 20px;
+  padding: 6px;
+}
+
+a {
+  text-decoration: none;
+}
+.email,
+.cpass,
+.pass {
+  margin-bottom: 3px;
+}
+.waves {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+  min-height: 100px;
+  max-height: 150px;
+}
+.reset-text {
+  font-size: 17px;
+  padding: 20px;
+  text-align: center;
+}
